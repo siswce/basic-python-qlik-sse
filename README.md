@@ -12,21 +12,38 @@ Download the QlikSense SSE protocol files from:
 https://github.com/qlik-oss/server-side-extension/tree/master
 
 Run the following command to generate files:
+
 python -m grpc_tools.protoc -I proto --proto_path=. --python_out=. --grpc_python_out=. ServerSideExtension.proto
 
 This creates:
-ServerSideExtension_pb2.py
-ServerSideExtension_pb2_grpc.py
+
+![gRPC Protocol Files](https://github.com/user-attachments/assets/3fa7a5c4-af06-4bc7-a1fb-d15e810a69da)
 
 # Start the SSE server
 python ssePyTools.py
 
+![Python SSE server](https://github.com/user-attachments/assets/82874a34-2af2-4587-b1fd-9bbed7253fbf)
+
 Verify port: Ensure port that you goes to use is not blocked by firewall
 
-# QlikSense
-Set up a new analytics connection
+# Qlik Sense
+Set up a new analytic connection
+
+![Qlik Sense Analytic Connection](https://github.com/user-attachments/assets/08e63d53-d31b-4d72-83e4-09ad25b97c1c)
+
 Restart Qlik Sense Engine Service
 
+<img width="652" height="249" alt="Qlik Sense Services" src="https://github.com/user-attachments/assets/2066cab6-3242-49c9-a9a2-5d8ee8b079a7" />
+
 In your app verify your regional configurations, for example money formats:
+
 SET DecimalSep='.';
+
 SET ThousandSep=',';
+
+In this basic example we can calculate bmi using the function ssePyTools.calcBMI
+
+![Load script example](https://github.com/user-attachments/assets/b38345d4-8047-4edf-85fe-2854d972b1ed)
+
+![Functions Results](https://github.com/user-attachments/assets/f9b6da0d-f479-4588-ba5c-ede98ed4cc42)
+
