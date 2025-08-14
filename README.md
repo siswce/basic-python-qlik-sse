@@ -11,7 +11,7 @@ pip install grpcio grpcio-tools
 Download the QlikSense SSE protocol files from:
 https://github.com/qlik-oss/server-side-extension/tree/master
 
-Run the following command to generate files
+Run the following command to generate files:
 python -m grpc_tools.protoc -I proto --proto_path=. --python_out=. --grpc_python_out=. ServerSideExtension.proto
 
 This creates:
@@ -23,10 +23,10 @@ python ssePyTools.py
 
 Verify port: Ensure port that you goes to use is not blocked by firewall
 
-# Qlik Sense
+# QlikSense
 Set up a new analytics connection
 Restart Qlik Sense Engine Service
 
-In your app verify your Regional configurations, for example money formats:
+In your app verify your regional configurations, for example money formats:
 SET DecimalSep='.';
 SET ThousandSep=',';
