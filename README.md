@@ -29,11 +29,11 @@ Verify port: Ensure port that you goes to use is not blocked by firewall
 # Qlik Sense
 Set up a new analytic connection
 
-![Qlik Sense Analytic Connection](https://github.com/user-attachments/assets/08e63d53-d31b-4d72-83e4-09ad25b97c1c)
+<img width="752" height="349" alt="Qlik Sense Analytic Connection" src="https://github.com/user-attachments/assets/08e63d53-d31b-4d72-83e4-09ad25b97c1c" />
 
 Restart Qlik Sense Engine Service
 
-<img width="652" height="249" alt="Qlik Sense Services" src="https://github.com/user-attachments/assets/2066cab6-3242-49c9-a9a2-5d8ee8b079a7" />
+<img width="500" height="149" alt="Qlik Sense Services" src="https://github.com/user-attachments/assets/2066cab6-3242-49c9-a9a2-5d8ee8b079a7" />
 
 In your app verify your regional configurations, for example money formats:
 
@@ -43,7 +43,6 @@ SET ThousandSep=',';
 
 In this basic example we can calculate bmi using the function ssePyTools.calcBMI
 
-![Load script example](https://github.com/user-attachments/assets/b38345d4-8047-4edf-85fe-2854d972b1ed)
+<img width="400" height="500" alt="Load script example" src="https://github.com/user-attachments/assets/b38345d4-8047-4edf-85fe-2854d972b1ed" />
 
-![Functions Results](https://github.com/user-attachments/assets/f9b6da0d-f479-4588-ba5c-ede98ed4cc42)
-
+<img width="650" height="500" alt="Result of the function" src="https://github.com/user-attachments/assets/f9b6da0d-f479-4588-ba5c-ede98ed4cc42" />
