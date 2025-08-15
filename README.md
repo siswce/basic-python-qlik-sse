@@ -17,12 +17,12 @@ python -m grpc_tools.protoc -I proto --proto_path=. --python_out=. --grpc_python
 
 This creates:
 
-![gRPC Protocol Files](https://github.com/user-attachments/assets/3fa7a5c4-af06-4bc7-a1fb-d15e810a69da)
+<img width="525" height="320" alt="gRPC Protocol Files" src="https://github.com/user-attachments/assets/3fa7a5c4-af06-4bc7-a1fb-d15e810a69da" />
 
 # Start the SSE server
 python ssePyTools.py
 
-![Python SSE server](https://github.com/user-attachments/assets/82874a34-2af2-4587-b1fd-9bbed7253fbf)
+<img width="652" height="249" alt="Python SSE Server" src="https://github.com/user-attachments/assets/82874a34-2af2-4587-b1fd-9bbed7253fbf" />
 
 Verify port: Ensure port that you goes to use is not blocked by firewall
 
